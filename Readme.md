@@ -144,10 +144,10 @@ Output files created:
 Project
 - Code Files:
   - Get_data.py                 # Step 1: Data download
-    BaseLineModel.py            # Step 2: Baseline linear model
-    EnhancedModel.py            # Step 3: Non-linear models
-    LLM_Sentiment.py            # Step 4: LLM integration
-    Visualization.py            # Step 5: Generate plots
+  - BaseLineModel.py            # Step 2: Baseline linear model
+  - EnhancedModel.py            # Step 3: Non-linear models
+  - LLM_Sentiment.py            # Step 4: LLM integration
+  - Visualization.py            # Step 5: Generate plots
   Data Files:
     aapl_data.csv               # Raw price data (1,583 rows)
     aapl_with_sentiment_no_bias.csv  # Enhanced with sentiment
