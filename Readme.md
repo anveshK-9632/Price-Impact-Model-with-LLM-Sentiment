@@ -136,8 +136,8 @@ Output files created:
                  File Structure
 -------------------------------------------------------------------------------
 
-Price_Impact_Model/
-  Code Files:
+Price_Impact_Model
+Code Files:
     Get_data.py                 # Step 1: Data download
     BaseLineModel.py            # Step 2: Baseline linear model
     EnhancedModel.py            # Step 3: Non-linear models
