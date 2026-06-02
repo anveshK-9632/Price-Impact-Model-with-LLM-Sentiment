@@ -137,16 +137,13 @@ Output files created:
 -------------------------------------------------------------------------------
 
 
+
+
+
+
 Project
 - Code Files:
-  Get_data.py    # step1: data Download
-
-
-
-
-Project
-  Code Files:
-    Get_data.py                 # Step 1: Data download
+  - Get_data.py                 # Step 1: Data download
     BaseLineModel.py            # Step 2: Baseline linear model
     EnhancedModel.py            # Step 3: Non-linear models
     LLM_Sentiment.py            # Step 4: LLM integration
