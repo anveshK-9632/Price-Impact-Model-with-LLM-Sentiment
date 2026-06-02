@@ -14,21 +14,15 @@ Quantitative research project built for internship opportunities. Predicts short
 - Visualization: matplotlib, seaborn
 - Data: Yahoo Finance (AAPL, 1,583 rows, 5-min bars)
 
-## Repository Structure
 
--------------------------------------------------------------------------------
-                  Price Impact Model - Project Workflow
--------------------------------------------------------------------------------
-================================================================================
-                   PRICE IMPACT MODEL - PROJECT WORKFLOW
-================================================================================
+## PROJECT WORKFLOW
 
 This document outlines the step-by-step workflow for the entire project.
 Follow these steps in order to reproduce all results.
 
-================================================================================
-STEP 1: DATA ACQUISITION
-================================================================================
+-------------------------------------------------------------------------------
+                  Step-1: Data Acquisition
+-------------------------------------------------------------------------------
 
 File: Get_data.py
 
@@ -40,9 +34,9 @@ What it does:
 Output files created:
 - aapl_data.csv (1,583 rows of raw price/volume data)
 
-================================================================================
-STEP 2: BASELINE LINEAR MODEL
-================================================================================
+-------------------------------------------------------------------------------
+                  Step-2: Baseline Linear Model
+-------------------------------------------------------------------------------
 
 File: BaseLineModel.py
 
@@ -61,9 +55,9 @@ Output files created:
 How to run:
     python BaseLineModel.py
 
-================================================================================
-STEP 3: ENHANCED NON-LINEAR MODELS
-================================================================================
+-------------------------------------------------------------------------------
+                  Step-3: Enhanced Non-linear Models
+-------------------------------------------------------------------------------
 
 File: EnhancedModel.py
 
@@ -88,9 +82,9 @@ Output files created:
 Key insight:
     Ridge shows slight RMSE improvement (4.2%) but directional accuracy remains near 50%.
 
-================================================================================
-STEP 4: LLM SENTIMENT INTEGRATION (NO LOOK-AHEAD BIAS)
-================================================================================
+-------------------------------------------------------------------------------
+                  Step-4: LLM Sentiment Integration (No Look-ahead Bias)
+-------------------------------------------------------------------------------
 
 File: LLM_Sentiment.py
 
@@ -119,9 +113,9 @@ Key finding:
     Public news sentiment provides NO short-term alpha - consistent with
     efficient market hypothesis.
 
-================================================================================
-STEP 5: VISUALIZATION
-================================================================================
+-------------------------------------------------------------------------------
+                  Step-5: Visualization
+-------------------------------------------------------------------------------
 
 File: Visualization.py
 
@@ -138,34 +132,29 @@ Output files created:
 - llm_pipeline.png (LLM architecture diagram)
 
 
-================================================================================
-COMPLETE FILE STRUCTURE AFTER ALL STEPS
-================================================================================
+-------------------------------------------------------------------------------
+                 File Structure
+-------------------------------------------------------------------------------
 
-CEQR_Price_Impact_Model/
-│
-├── Code Files:
-│   ├── Get_data.py                 # Step 1: Data download
-│   ├── BaseLineModel.py            # Step 2: Baseline linear model
-│   ├── EnhancedModel.py            # Step 3: Non-linear models
-│   ├── LLM_Sentiment.py            # Step 4: LLM integration
-│   ├── Visualization.py            # Step 5: Generate plots
-│   
-│
-├── Data Files:
-│   ├── aapl_data.csv               # Raw price data (1,583 rows)
-│   ├── aapl_with_sentiment_no_bias.csv  # Enhanced with sentiment
-│   └── news_sentiment_data.csv     # Headlines with scores
-│
-├── Results Files:
-│   ├── baseline_results.csv        # Linear model metrics
-│   ├── enhanced_results.csv        # Non-linear model comparison
-│   └── feature_importance.csv      # Top predictors
-│
-├── Visualizations (6 PNG files):
-    ├── price_impact_pattern.png
-    ├── sentiment_analysis.png
-    ├── feature_importance.png
-    ├── model_comparison.png
-    ├── correlation_matrix.png
-    └── llm_pipeline.png
+Price_Impact_Model/
+  Code Files:
+    Get_data.py                 # Step 1: Data download
+    BaseLineModel.py            # Step 2: Baseline linear model
+    EnhancedModel.py            # Step 3: Non-linear models
+    LLM_Sentiment.py            # Step 4: LLM integration
+    Visualization.py            # Step 5: Generate plots
+  Data Files:
+    aapl_data.csv               # Raw price data (1,583 rows)
+    aapl_with_sentiment_no_bias.csv  # Enhanced with sentiment
+    news_sentiment_data.csv     # Headlines with scores
+  Results Files:
+    baseline_results.csv        # Linear model metrics
+    enhanced_results.csv        # Non-linear model comparison
+    feature_importance.csv      # Top predictors
+  Visualizations (6 PNG files):
+    price_impact_pattern.png
+    sentiment_analysis.png
+    feature_importance.png
+    model_comparison.png
+    correlation_matrix.png
+    llm_pipeline.png
