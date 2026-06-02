@@ -16,6 +16,9 @@ Quantitative research project built for internship opportunities. Predicts short
 
 ## Repository Structure
 
+-------------------------------------------------------------------------------
+                  Price Impact Model - Project Workflow
+-------------------------------------------------------------------------------
 ================================================================================
                    PRICE IMPACT MODEL - PROJECT WORKFLOW
 ================================================================================
