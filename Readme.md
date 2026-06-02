@@ -137,7 +137,7 @@ Output files created:
 -------------------------------------------------------------------------------
 
 Price_Impact_Model
-Code Files:
+  Code Files:
     Get_data.py                 # Step 1: Data download
     BaseLineModel.py            # Step 2: Baseline linear model
     EnhancedModel.py            # Step 3: Non-linear models
