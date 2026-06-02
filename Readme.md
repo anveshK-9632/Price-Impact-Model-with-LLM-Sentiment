@@ -138,7 +138,7 @@ Output files created:
 
 
 Project
- Code Files:
+- Code Files:
   Get_data.py    # step1: data Download
 
 
