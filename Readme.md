@@ -1,7 +1,7 @@
-# CEQR Price Impact Model with LLM Sentiment Integration
+# Price Impact Model with LLM Sentiment Integration
 
 ## Project Overview
-Quantitative research project built for Walleye Capital's Central Equity Quant Research (CEQR) internship. Predicts short-term price impact using market microstructure features and LLM-based sentiment analysis.
+Quantitative research project built for internship opportunities. Predicts short-term price impact using market microstructure features and LLM-based sentiment analysis.
 
 ## Key Findings
 - Public news sentiment shows near-zero correlation with 5-minute returns (ρ = -0.0075)
