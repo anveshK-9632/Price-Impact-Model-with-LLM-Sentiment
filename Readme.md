@@ -136,7 +136,15 @@ Output files created:
                  File Structure
 -------------------------------------------------------------------------------
 
-Price_Impact_Model
+
+Project
+ Code Files:
+  Get_data.py    # step1: data Download
+
+
+
+
+Project
   Code Files:
     Get_data.py                 # Step 1: Data download
     BaseLineModel.py            # Step 2: Baseline linear model
