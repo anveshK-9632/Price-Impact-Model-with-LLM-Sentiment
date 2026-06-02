@@ -148,18 +148,18 @@ Project
   - EnhancedModel.py            # Step 3: Non-linear models
   - LLM_Sentiment.py            # Step 4: LLM integration
   - Visualization.py            # Step 5: Generate plots
-  Data Files:
-    aapl_data.csv               # Raw price data (1,583 rows)
-    aapl_with_sentiment_no_bias.csv  # Enhanced with sentiment
-    news_sentiment_data.csv     # Headlines with scores
-  Results Files:
-    baseline_results.csv        # Linear model metrics
-    enhanced_results.csv        # Non-linear model comparison
-    feature_importance.csv      # Top predictors
-  Visualizations (6 PNG files):
-    price_impact_pattern.png
-    sentiment_analysis.png
-    feature_importance.png
-    model_comparison.png
-    correlation_matrix.png
-    llm_pipeline.png
+- Data Files:
+  - aapl_data.csv               # Raw price data (1,583 rows)
+  - aapl_with_sentiment_no_bias.csv  # Enhanced with sentiment
+  - news_sentiment_data.csv     # Headlines with scores
+- Results Files:
+  - baseline_results.csv        # Linear model metrics
+  - enhanced_results.csv        # Non-linear model comparison
+  - feature_importance.csv      # Top predictors
+- Visualizations (6 PNG files):
+  - price_impact_pattern.png
+  - sentiment_analysis.png
+  - feature_importance.png
+  - model_comparison.png
+  - correlation_matrix.png
+  - llm_pipeline.png
