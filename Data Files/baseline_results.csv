@@ -1,0 +1,2 @@
+Model,Test_RMSE,Test_R2,Directional_Accuracy
+Linear Regression (Baseline),0.0011626490170063696,-0.008885856259592817,0.5192307692307693
